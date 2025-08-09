@@ -1,41 +1,50 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src = "https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-<script src = "https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<link rel="stylesheet" href="src/style.css" />
-<title>AI Bible Verse Generator t</title>
-</head>
-<body>
-  <div class="container">
-<header>
-<h1> AI Bible-Verse Generator </h1>
-</header>
-<main>
-  <form id="verse-generator-form">
-    <input type="text" placeholder="Enter the topic of the verse" 
-    autofocus
-    required 
-    autocomplete="off"
-    class="instructions"
-    id="user-instructions"
-    />
-    <input type="submit"  value= "Get verse" class="submit-button" />
-  </form>
-  <div class="verse" id="verse">
-  </div>
-</main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>AI French Poem Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>AI French Poem Generator</h1>
+      </header>
 
+      <main>
+        <form id="poem-generator-form">
+          <input
+            type="text"
+            placeholder="Enter the topic of the French poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem" id="poem"></div>
+      </main>
+      
+    <footer>
+      This AI project was coded by
+      <a href="https://github.com/NosiphoNdzinisa/" target="_blank">Nosipho Ndzinisa</a> and
+      is
+      <a
+        href="https://github.com/NosiphoNdzinisa/french-poem-generator"
+        target="_blank"
+      >
+        open-sourced on GitHub</a
+      >
+      and is
+      <a href="https://ai-french-poem-generator.netlify.app/" target="_blank"
+        >hosted on Netlify</a
+      >.
+    </footer>
 
-<footer>
-This AI project was coded by 
-<a href="https://github.com/NosiphoNdzinisa/" target="_blank">Nosipho Ndzinisa<a> and is <a href="https://github.com/NosiphoNdzinisa/bible-verse-generator" target="_blank">
-open-sourced on Github</a>
-and is <a href="https://bible-verse-gen.netlify.app/" target="_blank">hosted on Netlify</a>
-</footer>
-</div>
-<script src="src/index.js"></script>
-</body>
+    <script src="src/index.js"></script>
+  </body>
 </html>
